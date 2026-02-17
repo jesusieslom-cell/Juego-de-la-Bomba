@@ -1,0 +1,14 @@
+{
+  "name": "juego-de-la-bomba",
+  "version": "1.0.0",
+  "description": "Juego multijugador en tiempo real tipo Bomb Party",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:fragments": "node scripts/buildFragments.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
